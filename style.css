@@ -8,14 +8,19 @@ body {
 }
 
 div {
-  margin-top: 15vh; /* Move the div down by 75% of the viewport height */
+  margin-top: 15vh; /* Move the div down by 15% of the viewport height */
   transform: translateY(
     -50%
-  ); /* Adjust to center it vertically within the 3/4 position */
+  ); /* Adjust to center it vertically within the 1/4 position */
   text-align: center; /* Ensure text is centered within the div */
 }
 
-h1,
+h1 {
+  text-align: center; /* Ensure text is centered within the element */
+  font-size: 3rem; /* Increase the font size */
+}
+
 span {
-  text-align: center; /* Ensure text is centered within the elements */
+  text-align: center; /* Ensure text is centered within the element */
+  font-size: 1.5rem; /* Increase the font size */
 }
